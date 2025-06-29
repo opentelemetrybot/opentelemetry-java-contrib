@@ -67,6 +67,17 @@ $ ./gradlew test
 $ ./gradlew integrationTest
 ```
 
+### Link checking
+
+To check for broken links in documentation:
+
+```bash
+$ ./.github/scripts/check-links.sh
+```
+
+This will run [lychee](https://github.com/lycheeverse/lychee) in a Docker container to check all markdown files for broken links. 
+You can optionally set the `GITHUB_TOKEN` environment variable to avoid hitting GitHub API rate limits.
+
 Follow the Java Instrumentation [Style Guide](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/contributing/style-guideline.md) from the opentelemetry-java-instrumentation repository.
 
 Failure? Check logs for errors or mismatched dependencies.
