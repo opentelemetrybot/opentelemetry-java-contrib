@@ -118,8 +118,8 @@ jobs:
           name: integration-test-results
           path: jmx-metrics/build/reports/tests/integrationTest
 
-  markdown-link-check:
-    uses: ./.github/workflows/reusable-markdown-link-check.yml
+  check-links:
+    uses: ./.github/workflows/reusable-check-links.yml
 
   markdown-lint-check:
     uses: ./.github/workflows/reusable-markdown-lint.yml
