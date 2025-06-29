@@ -1,0 +1,16 @@
+# Configuration for lychee link checker
+# Based on the existing workflow arguments
+
+# Include fragments in links
+include_fragments = true
+
+# Maximum number of retries for failed links
+max_retries = 6
+
+# Maximum concurrency for link checking
+max_concurrency = 1
+
+# Exclude links to pull requests and issues for performance
+exclude = [
+  '^https://github.com/open-telemetry/opentelemetry-java-contrib/(issues|pull)/\d+$',
+]
