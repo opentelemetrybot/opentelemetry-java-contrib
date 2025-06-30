@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       # Needed for Code scanning upload
-      security-events: write
+      security-events: write  # for uploading SARIF results
       # Needed for GitHub OIDC token if publish_results is true
-      id-token: write
+      id-token: write  # for GitHub OIDC token
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:

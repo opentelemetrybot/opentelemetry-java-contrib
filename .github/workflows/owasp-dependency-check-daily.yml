@@ -42,7 +42,7 @@ jobs:
   workflow-notification:
     permissions:
       contents: read
-      issues: write
+      issues: write  # for creating issues
     needs:
       - analyze
     if: always()
