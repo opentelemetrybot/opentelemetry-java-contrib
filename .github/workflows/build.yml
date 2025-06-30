@@ -119,15 +119,23 @@ jobs:
           path: jmx-metrics/build/reports/tests/integrationTest
 
   markdown-link-check:
+    permissions: # required by the reusable workflow
+      contents: read
     uses: ./.github/workflows/reusable-markdown-link-check.yml
 
   markdown-lint-check:
+    permissions: # required by the reusable workflow
+      contents: read
     uses: ./.github/workflows/reusable-markdown-lint.yml
 
   misspell-check:
+    permissions: # required by the reusable workflow
+      contents: read
     uses: ./.github/workflows/reusable-misspell-check.yml
 
   shell-script-check:
+    permissions: # required by the reusable workflow
+      contents: read
     uses: ./.github/workflows/reusable-shell-script-check.yml
 
   publish-snapshots:
