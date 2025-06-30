@@ -1,0 +1,46 @@
+timeout = 30
+retry_wait_time = 5
+max_retries = 6
+max_concurrency = 4
+
+# Stealth
+user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0"
+
+# Check fragments in links
+include_fragments = true
+
+# excluding links to pull requests and issues is done for performance
+# stackexchange link fails with 403 when accessed by lychee
+# external services that commonly fail in CI environments
+exclude = [
+  '^https://github.com/open-telemetry/opentelemetry-java-contrib/(issues|pull)/\d+$',
+  '^http://code.google.com/p/concurrentlinkedhashmap$',
+  '^https://softwareengineering.stackexchange.com/questions/29727.*',
+  '^https://central.sonatype.com/service/rest/repository/browse/maven-snapshots/io/opentelemetry/$',
+  '^https://app.fossa.com/.*',
+  '^https://contrib.rocks/.*',
+  '^https://scorecard.dev/.*',
+  '^https://api.scorecard.dev/.*',
+  '^https://img.shields.io/.*',
+  '^https://cloud-native.slack.com/.*',
+  '^https://cloud.google.com/.*',
+  '^https://opentelemetry.io/.*',
+  '^https://docs.jboss.org/.*',
+  '^https://cassandra.apache.org/.*',
+  '^https://hadoop.apache.org/.*',
+  '^https://solr.apache.org/.*',
+  '^https://docs.cloudfoundry.org/.*',
+  '^https://docs.aws.amazon.com/.*',
+  '^https://kafka.apache.org/.*',
+  '^https://docs.oracle.com/.*',
+  '^https://activemq.apache.org/.*',
+  '^https://www.jaegertracing.io/.*',
+  '^https://plugins.jenkins.io/.*',
+  '^http://groovy-lang.org/.*',
+  '^http://docs.groovy-lang.org/.*',
+  '^https://www.eclipse.org/jetty/.*',
+  '^https://semver.org/.*',
+  '^https://developer.mend.io/.*',
+  '^https://en.wikipedia.org/.*',
+  '^https://hbase.apache.org/.*',
+]
