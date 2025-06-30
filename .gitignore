@@ -25,6 +25,7 @@ build
 .gradle
 local.properties
 out/
+.kotlin
 
 # Maven (proto)
 target
