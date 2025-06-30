@@ -13,6 +13,8 @@ jobs:
   backport:
     permissions:
       contents: write  # for Git to git push
+      pull-requests: read  # for gh pr view
+      pull-requests: write  # for gh pr create
     runs-on: ubuntu-latest
     steps:
       - run: |

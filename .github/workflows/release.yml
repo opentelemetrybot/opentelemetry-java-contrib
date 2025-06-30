@@ -193,6 +193,7 @@ jobs:
   merge-change-log-to-main:
     permissions:
       contents: write # for git push to PR branch
+      pull-requests: write  # for gh pr create
     runs-on: ubuntu-latest
     needs:
       - release

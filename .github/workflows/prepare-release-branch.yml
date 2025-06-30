@@ -26,6 +26,7 @@ jobs:
   create-pull-request-against-release-branch:
     permissions:
       contents: write  # for Git to git push
+      pull-requests: write  # for gh pr create
     runs-on: ubuntu-latest
     needs:
       - prereqs
@@ -83,6 +84,7 @@ jobs:
   create-pull-request-against-main:
     permissions:
       contents: write  # for Git to git push
+      pull-requests: write  # for gh pr create
     runs-on: ubuntu-latest
     needs:
       - prereqs
