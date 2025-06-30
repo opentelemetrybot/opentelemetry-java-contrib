@@ -7,5 +7,5 @@ max_concurrency = 1
 
 # excluding links to pull requests and issues is done for performance
 exclude = [
-  '^https://github.com/open-telemetry/opentelemetry-java-contrib/(issues|pull)/\\d+$',
+  '^https://github\.com/open-telemetry/opentelemetry-java-contrib/(issues|pull)/\d+$',
 ]
