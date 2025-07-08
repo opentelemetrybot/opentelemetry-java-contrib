@@ -76,8 +76,8 @@ can be helpful to ensure this is the correct place and that active or conflictin
 
 - [Jack Berg](https://github.com/jack-berg), New Relic
 - [Jason Plumb](https://github.com/breedx-splk), Splunk
-- [Lauri Tulmin](https://github.com/laurit), Splunk
 - [Trask Stalnaker](https://github.com/trask), Microsoft
+- [Lauri Tulmin](https://github.com/laurit), Splunk
 
 For more information about the maintainer role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#maintainer).
 
@@ -95,9 +95,9 @@ For more information about the triager role, see the [community repository](http
 
 ### Emeritus maintainers
 
+- [Ryan Fitzpatrick](https://github.com/rmfitzpatrick)
 - [Mateusz Rzeszutek](https://github.com/mateuszrzeszutek)
 - [Nikita Salnikov-Tarnovski](https://github.com/iNikem)
-- [Ryan Fitzpatrick](https://github.com/rmfitzpatrick)
 
 For more information about the emeritus role, see the [community repository](https://github.com/open-telemetry/community/blob/main/guides/contributor/membership.md#emeritus-maintainerapprovertriager).
 

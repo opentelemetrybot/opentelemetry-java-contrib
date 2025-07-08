@@ -136,8 +136,8 @@ java -cp scraper.jar:jboss-client.jar io.opentelemetry.contrib.jmxscraper.JmxScr
 
 ## Component owners
 
-- [Jason Plumb](https://github.com/breedx-splk), Splunk
-- [Robert Niedziela](https://github.com/robsunday), Splunk
 - [Sylvain Juge](https://github.com/sylvainjuge), Elastic
+- [Robert Niedziela](https://github.com/robsunday), Splunk
+- [Jason Plumb](https://github.com/breedx-splk), Splunk
 
 Learn more about component owners in [component_owners.yml](../.github/component_owners.yml).
