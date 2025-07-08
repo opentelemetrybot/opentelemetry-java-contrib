@@ -277,8 +277,8 @@ file contents can also be provided via stdin on startup when using `-config -` a
 
 ## Component owners
 
-- [Jason Plumb](https://github.com/breedx-splk), Splunk
 - [Sylvain Juge](https://github.com/sylvainjuge), Elastic
+- [Jason Plumb](https://github.com/breedx-splk), Splunk
 
 ## Emeritus owners
 
